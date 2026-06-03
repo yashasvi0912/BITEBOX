@@ -22,6 +22,7 @@ section{
     text-align: center;
     background: linear-gradient(rgb(89, 23, 131),rgb(216, 179, 57)
     );
+    position: relative;
     img{
         width: 30%;
         height: 20%;
@@ -31,4 +32,15 @@ section{
         background-color: rgb(221, 240, 240);
         box-shadow: 0px 0px 5px 3px rgb(184, 22, 157);
     }
+}
+.new{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-weight: bolder;
+    border-bottom-left-radius: 10px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    color: whitesmoke;
 }
