@@ -1,0 +1,17 @@
+.grid-container{
+    border: 2px solid black;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+.grid-item{
+    border: 1px solid rgb(21, 237, 219);
+    background-color: blueviolet;
+    /* align-self: center;
+    justify-self: end;
+    align-items: center;
+    align-content: center; */
+    text-align: center;
+  }
