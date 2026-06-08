@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menus</title>
+    <link rel="stylesheet" href="./menu.css">
+    <script
+      src="https://kit.fontawesome.com/635fbb3959.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+</style>
+  </head>
 <body>
-    <h3>this is menu page. </h3>
+     <header>
+      <nav>
+        <div class="logo">
+          <!-- logo -->
+          <!-- <h2>bite <span style="color: red">box</span></h2> -->
+          <img src="../img/bitebox2.png" width="150px" alt="">
+        </div>
+        <!-- menu -->
+        <ul>
+          <li><a href="./index.html" target="_blank">home</a></li>
+          <li><a href="./menu.html" target="_self">menu</a></li>
+          <li><a href="./bitedeals.html">bitedeals</a></li>
+          <li>
+            <a href="./cart.html"
+              ><i class="fa-solid fa-cart-arrow-down"></i
+            >cart</a>
+          </li>
+          <li><a href="./login.html"><button id="login-button" ><i class="fa-solid fa-right-to-bracket"></i>
+              login</button></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- icon filter section start -->
+     <div class="category-icon">
+      <div class="icon-box">
+        <img src="../img/burger.jpg" alt="All-Menus">
+        <p>All</p>
+      </div>
+      <div class="icon-box">
+        <img src="../img/burger.jpg" alt="All-Menus">
+        <p>All</p>
+      </div>
+      <div class="icon-box">
+        <img src="../img/burger.jpg" alt="All-Menus">
+        <p>All</p>
+      </div>
+      <div class="icon-box">
+        <img src="../img/burger.jpg" alt="All-Menus">
+        <p>All</p>
+      </div>
+      <div class="icon-box">
+        <img src="../img/burger.jpg" alt="All-Menus">
+        <p>All</p>
+      </div>
+     </div>
+     <!--  icon filter section end-->
+    <!-- menu section start -->
+    <section class="menu">
+      <!-- <h2> Our Menu</h2> -->
+      <div class="menu-container">
+        <div class="card">
+          <img src="../img/burger.jpg" alt="">
+          <h3>Burger</h3>
+          <p>Cheesy Burger</p>
+          <span>₹189</span>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="../img/pizza capsicum.jpg" alt="">
+          <h3>Capsicum Pizza</h3>
+          <p>Cheesy pizza capsicum</p>
+          <span>₹195</span>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="../img/onion pizza.jpg" alt="">
+          <h3>Onion Pizza</h3>
+          <p>Cheesy Onion pizza</p>
+          <span>₹169</span>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="../img/red pasta.jpg" alt="">
+          <h3>Red Pasta</h3>
+          <p>Cheesy Red Pasta</p>
+          <span>₹199</span>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="../img/veghakka.jpg" alt="">
+          <h3>Veg Hakka Noodeles</h3>
+          <p>Spicy Veg Hakka Noodeles</p>
+          <span>₹179</span>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="../img/veg manchurian.jpg" alt="">
+          <h3>Veg Manchuriens</h3>
+          <p>Testy Veg Manchuriens</p>
+          <span>₹109</span>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+    <!-- menu sections end -->
 </body>
 </html>
