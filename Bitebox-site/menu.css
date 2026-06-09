@@ -1,14 +1,14 @@
 .card{
     background: whitesmoke;
-    padding: 50px;
+    padding: 15px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 10px rgb(99, 81, 81);
 }
 .card img{
-    width: 110%;
+    width: 100%;
     object-fit: cover;
-    height: 150px;
+    height: 250px;
 
 }
 
