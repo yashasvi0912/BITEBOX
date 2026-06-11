@@ -55,3 +55,68 @@ nav a:hover{
     padding: 6px;
     margin-top: 12px;
 }
+
+/* login and signup page */
+
+.auth-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(130deg, black, rgba(98, 95, 95, 0.895));
+  height: 100vh;
+}
+
+.auth-box{
+  background: whitesmoke;
+  padding: 40px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(118, 115, 115, 0.958);
+}
+
+.auth-box h2{
+  margin-bottom: 20px;
+  color: rgb(26, 23, 23);
+  span{
+    color: red;
+  }
+}
+
+.auth-box input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.auth-box input:focus{
+  border-color: red;
+}
+
+.auth-box button{
+  width: 100%;
+  padding: 10px;
+  background: rgb(169, 3, 3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.auth-box button:hover{
+  background-color: rgb(237, 105, 10);
+}
+
+.auth-box p{
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.auth-box a{
+  color: red;
+  text-decoration: none;
+}
